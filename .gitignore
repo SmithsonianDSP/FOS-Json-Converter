@@ -245,3 +245,4 @@ ModelManifest.xml
 .fake/
 /SavDecrypt/backup-Vault1--1461421024.csv
 /SavDecrypt/Vault2.csv
+*.csv
