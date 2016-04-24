@@ -74,6 +74,28 @@ Public Class ProcessJson
         NewDweller.WastelandDays = dIn.daysOnWasteland
         NewDweller.WastelandHours = dIn.hoursOnWasteland
 
+        NewDweller.STR_Base = dIn.stats.stats(1).value
+        NewDweller.STR_Bonus = dIn.stats.stats(1).[mod]
+
+        NewDweller.PER_Base = dIn.stats.stats(2).value
+        NewDweller.PER_Bonus = dIn.stats.stats(2).mod
+
+        NewDweller.END_Base = dIn.stats.stats(3).value
+        NewDweller.END_Bonus = dIn.stats.stats(3).mod
+
+        NewDweller.CHR_Base = dIn.stats.stats(4).value
+        NewDweller.CHR_Bonus = dIn.stats.stats(4).mod
+
+        NewDweller.INT_Base = dIn.stats.stats(5).value
+        NewDweller.INT_Bonus = dIn.stats.stats(5).mod
+
+        NewDweller.AGL_Base = dIn.stats.stats(6).value
+        NewDweller.AGL_Bonus = dIn.stats.stats(6).mod
+
+        NewDweller.LCK_Base = dIn.stats.stats(7).value
+        NewDweller.LCK_Bonus = dIn.stats.stats(7).mod
+
+
 
         Return NewDweller
 

@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("FOS Json Converter")>
+<Assembly: AssemblyTitle("FOS Dweller Info to CSV")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("FOS Json Converter")>
-<Assembly: AssemblyCopyright("Copyright ©  2016")>
+<Assembly: AssemblyProduct("FOS Dweller Info to CSV")>
+<Assembly: AssemblyCopyright("Copyright © 2016")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
